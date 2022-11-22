@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang='ru'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Lab 4</title>
+
+	<link rel="stylesheet" type="text/css" href="_CSS.css">
+
+	<script type="text/javascript" src="_JS.js"></script>
+</head>
+
+<body>
+    <div class="inputDiv">
+        <input class="inputElem" id="_name" type="text" placeholder="Name of product">
+        <input class="inputElem" id="_cost" type="number" placeholder="Cost of product">
+
+        <button class="inputElem" onclick="Add()">Add</button>
+        <button class="inputElem" onclick="Calculate()">Calc</button>
+    </div>
+
+	<div>
+		<table id="_table">
+			<tr>
+				<th style="width:20%">#</th>
+				<th style="width:40%">Name</th>
+				<th style="width:40%">Cost</th>
+			</tr>
+
+			<tr id="end" class="total">
+				<td colspan="2">Total:</td>
+				<td id='total'>0</td>
+			</tr>
+
+		</table>
+	</div>
+</body>
+</html>

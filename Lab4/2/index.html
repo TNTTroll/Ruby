@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="_JS.js"> </script>
+	<title>Lab 4.2</title>
+
+	<style>
+		.column {
+			float: left;
+		}
+
+		.right {
+			width: 40%;
+		}
+
+		.left {
+			width: 60%;			
+		}
+		td:hover {
+			background-color: #6CD6D9;
+		}
+        
+        table {
+            width: 90%;
+        }
+
+        td {
+            border-bottom: 1px solid Black
+        }
+	</style>
+</head>
+<body>
+	<div class='column left'>
+            <table>
+                
+                    <tr>
+                        
+                        <th id="here">Name</th>
+                        <th >Cost</th>
+                    </tr>
+                
+               
+                    <tr onclick="AddStroku()" >
+                        
+                        <td>Bench</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Lamp</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Table</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Chair</td>
+                        <td>4000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Wardrobe</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Mouse</td>
+                        <td>6000</td>
+                    </tr>
+                    <tr onclick="AddStroku()">
+                        
+                        <td>Keyboard</td>
+                        <td>7000</td>
+                    </tr>
+            </table>
+        </div>
+
+        <div class='column right'>
+            <table id="novai">
+                
+                    <tr>
+                        
+                        <th scope="col">Name</th>
+                        <th scope="col">Cost</th>
+                    </tr>
+            </table>
+        </div>
+	
+</body>
+</html>

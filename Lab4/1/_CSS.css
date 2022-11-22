@@ -1,0 +1,47 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #FFD8B0;
+}
+
+table {
+	margin-left: 50%;
+	margin-top: 30px;
+	transform: translate(-50%);
+
+	width: 60%;
+
+	border: 2px Solid Black;
+}
+
+th {
+	background-color: #E7AF9B;
+	border: 2px Solid Black;
+
+	height: 25px;
+}
+
+td {
+	background-color: #F5C0AC;
+	border: 1px Solid Black;
+
+	height: 18px;
+}
+
+.inputDiv {
+	margin-left: 50%;
+	margin-top: 10%;
+
+	transform: translate(-50%);
+}
+
+.inputElem {
+	height: 25px;
+}
+
+.total {
+	font-weight: bold;
+}
