@@ -1,0 +1,410 @@
+Started GET "/" for 127.0.0.1 at 2022-11-22 22:53:52 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 831)
+Completed 200 OK in 21ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 7774)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:00:09 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2642)
+  Rendered layout layouts/application.html.erb (Duration: 219.2ms | Allocations: 89649)
+Completed 200 OK in 227ms (Views: 221.4ms | ActiveRecord: 0.0ms | Allocations: 95579)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:00:38 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1440)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 4304)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5497)
+
+
+Started GET "/search?query=12&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:00:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:00:40 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1183)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3730)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 4083)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:01:02 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1432)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4279)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 5409)
+
+
+Started GET "/newton/view?query=123&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:01:03 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"query"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.5ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2509)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2896)
+
+
+Started GET "/newton/view?query=123&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:02:00 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"query"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 14267)
+Completed 200 OK in 15ms (Views: 14.3ms | Allocations: 15493)
+
+
+Started GET "/newton/view?query=123&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:02:00 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"query"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2398)
+Completed 200 OK in 3ms (Views: 2.3ms | Allocations: 2735)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:02:02 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1380)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 3757)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 4120)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:02:03 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2390)
+Completed 200 OK in 2ms (Views: 2.1ms | Allocations: 2712)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:02:43 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+Completed 500 Internal Server Error in 0ms (Allocations: 495)
+
+
+  
+TypeError (no implicit conversion of Float into String):
+  
+app/controllers/newton_controller.rb:8:in `+'
+app/controllers/newton_controller.rb:8:in `view'
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:03:04 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1224)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 15117)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 15996)
+
+
+Started GET "/newton/view?number=10&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:03:07 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"10", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2394)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 2734)
+
+
+Started GET "/newton/view?number=10&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:04:28 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"10", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1131)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1212)
+Completed 500 Internal Server Error in 3ms (Allocations: 2340)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Newton - Rafsona</h1>
+<%= 'Answer', @answer %>
+
+):
+1:    <h1>Newton - Rafsona</h1>
+2:    <%= 'Answer', @answer %>
+  
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected ',', expecting ')'
+Started GET "/newton/view?number=10&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:04:37 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"10", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1116)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1197)
+Completed 500 Internal Server Error in 2ms (Allocations: 2307)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Newton - Rafsona</h1>
+<%= 'Answer' @answer %>
+
+):
+1:    <h1>Newton - Rafsona</h1>
+2:    <%= 'Answer' @answer %>
+  
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+app/views/newton/view.html.erb:2: syntax error, unexpected instance variable, expecting ')'
+Started GET "/newton/view?number=10&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:06:02 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"10", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 2.5ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3023)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 4168)
+
+
+Started GET "/newton/view?number=10&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:06:44 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"10", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 14258)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 15484)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-22 23:06:46 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1378)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3764)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 4142)
+
+
+Started GET "/newton/view?number=121&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:06:49 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"121", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2398)
+Completed 200 OK in 7ms (Views: 7.0ms | Allocations: 2724)
+
+
+Started GET "/newton/view?number=1211234&commit=Calculate" for 127.0.0.1 at 2022-11-22 23:06:55 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"1211234", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2409)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 2734)
+
+
+Started GET "/newton/view?number=1211234&commit=Calculate" for 127.0.0.1 at 2022-11-23 00:02:59 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"1211234", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.6ms | Allocations: 500)
+  Rendered layout layouts/application.html.erb (Duration: 76.3ms | Allocations: 41237)
+Completed 200 OK in 86ms (Views: 81.8ms | ActiveRecord: 0.0ms | Allocations: 47211)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:03:05 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2070)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4645)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 5115)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:03:26 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1158)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 5490)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5844)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:03:42 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1149)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 5383)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5694)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:03:51 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1150)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4917)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 5232)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-23 00:04:14 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2393)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:04:40 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 981)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3824)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4974)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-23 00:04:59 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2522)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2928)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:05:24 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 5028)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:05:27 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 4956)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 5267)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:05:37 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 4473)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4784)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:05:44 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.7ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4986)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 5297)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:05:49 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 712)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4971)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5283)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:06:16 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.3ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 5028)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 5339)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:06:17 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.4ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3108)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3420)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:06:31 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 10.3ms | Allocations: 8331)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 8420)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 9531)
+
+
+  
+ActionView::Template::Error (undefined method `deep_stringify_keys' for :number:Symbol):
+    2:   <p>Enter your number</p>
+    3:   <%= form_with url: "newton/view", method: :get do |form| %>
+    4:     <%= form.text_field :number %>
+    5:     <%= form.submit "Calculate", :number %>
+    6:   <% end %>
+    7: </div>
+  
+app/views/newton/input.html.erb:5
+app/views/newton/input.html.erb:3
+Started GET "/" for 127.0.0.1 at 2022-11-23 00:06:38 +0300
+Processing by NewtonController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering newton/input.html.erb within layouts/application
+  Rendered newton/input.html.erb within layouts/application (Duration: 0.8ms | Allocations: 982)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3935)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 5079)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-23 00:06:41 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.7ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2512)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2912)
+
+
+Started GET "/newton/view?number=123&commit=Calculate" for 127.0.0.1 at 2022-11-23 00:57:11 +0300
+Processing by NewtonController#view as HTML
+  Parameters: {"number"=>"123", "commit"=>"Calculate"}
+  Rendering layout layouts/application.html.erb
+  Rendering newton/view.html.erb within layouts/application
+  Rendered newton/view.html.erb within layouts/application (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2395)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 2719)
+
+
